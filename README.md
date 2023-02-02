@@ -1,6 +1,6 @@
 # weekly-scheduler
 
-###User Story 
+### User Story 
 
 Create a schedule planner 
 When opened it should display current date at the top of the page 
@@ -10,8 +10,11 @@ Then information should be entered and saved in timeblock
 When saved button is clicked event is saved in local storage 
 Then when page is refreshed the saved events persists.
 
-##APPLICATIONS USED
+## APPLICATIONS USED
 
 Html
 CSS
 Java script
+
+## contributors 
+Laura Makokha

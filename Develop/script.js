@@ -37,7 +37,7 @@ $(document).ready(function() {
       });
  }
 
- fun hourUpdater();
+ hourUpdater();
 
   var interval = setInterval(hourUpdater, 15000);
     
@@ -51,5 +51,5 @@ $(document).ready(function() {
   $('#hour-16 .description').val(localStorage.getItem('hour-16'));
   $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
-  $('#currentDay').text(moment().format('dddd, MMMM Do'));
+  $('#currentDay').text(moment().format('dddd, MMMM Yr'));
 });
